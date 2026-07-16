@@ -1,0 +1,25 @@
+﻿[
+  {
+    "Id": "spawnerAirShip1",
+    "Prefab": ["Structure.spawnerAirShip1"],
+    "Weight": [0.25],
+    "ZoneMask": ["*"],
+    "BiomeMask": ["cold_*"],
+
+  "SpawnChance": 0.35,
+  "MinDistanceBetweenStructures": 400,
+  "MinDistanceFromOtherStructures": 450,
+  "MaxInstancesPerBiome": 2,
+
+  "Pattern": {
+    "GridGenerator": {
+      "Seed": "Pattern_ship3",
+      "Density": [0.5, 1.0],
+      "Scale": 0.005,
+      "Jitter": 0.75
+    },
+      "FitHeightmap": true,
+      "ExclusionRadius": 1700
+    }
+  }
+]

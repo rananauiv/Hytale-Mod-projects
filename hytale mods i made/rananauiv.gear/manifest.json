@@ -1,0 +1,15 @@
+{
+  "Group": "rananauiv",
+  "Name": "gear",
+  "Version": "1.0.0",
+  "Description": "",
+  "Authors": [],
+  "Website": "",
+  "ServerVersion": ">=0.5.6 <0.6.0",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
