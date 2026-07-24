@@ -1,0 +1,100 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Armor_Cloth_Linen_Head.name"
+  },
+  "Parent": "Armor_Iron_Head",
+  "Quality": "Common",
+  "ItemLevel": 15,
+  "Icon": "Icons/ItemsGenerated/Armor_Cloth_Linen_Head.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      47.815,
+      22.5
+    ],
+    "Scale": 0.5,
+    "Translation": [
+      -0.9,
+      -3.3
+    ]
+  },
+  "Model": "Items/Armors/Linen/Head.blockymodel",
+  "Texture": "Items/Armors/Linen/Head_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 2,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bolt_Linen",
+        "Quantity": 3
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Arcane_Misc"
+        ],
+        "RequiredTierLevel": 0
+      }
+    ],
+    "KnowledgeRequired": false,
+    "RequiredMemoriesLevel": 2
+  },
+  "Armor": {
+    "ArmorSlot": "Head",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "EarAccessory",
+      "Ear",
+      "Haircut",
+      "HeadAccessory"
+    ],
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 9,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Mana": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 5
+        }
+      ]
+    },
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.05,
+          "CalculationType": "Percent"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.05,
+          "CalculationType": "Percent"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Cloth_Linen"
+    ]
+  },
+  "MaxDurability": 120,
+  "ItemSoundSetId": "ISS_Armor_Cloth"
+}

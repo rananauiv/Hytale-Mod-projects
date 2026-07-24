@@ -1,0 +1,9 @@
+{
+  "StatModifiers": {
+    "Mana": 35
+  },
+  "ValueType": "Percent",
+  "OverlapBehavior": "Overwrite",
+  "Duration": 0.1,
+  "DamageCalculatorCooldown": 0
+}

@@ -1,0 +1,21 @@
+{
+  "Group": "rananauiv",
+  "Name": "Custom leather crafts",
+  "Version": "1.0.0",
+  "Description": "just trying to add leather armor crafting recipies",
+  "Authors": [
+    {
+      "Name": "rananauiv",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": ">=0.5.4 <0.6.0",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
